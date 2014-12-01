@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomCalendar">
+        <attr name="firstDay" format="enum">
+            <enum name="monday" value="0"/>
+            <enum name="tuesday" value="1"/>
+            <enum name="wednesday" value="2"/>
+            <enum name="thursday" value="3"/>
+            <enum name="friday" value="4"/>
+            <enum name="saturday" value="5"/>
+            <enum name="sunday" value="6"/>
+        </attr>
+        <attr name="image" format="reference"/>
+        <attr name="arrowRight" format="reference"/>
+        <attr name="arrowLeft" format="reference"/>
+        <attr name="titleFontSize" format="float" />
+        <attr name="numberFontSize" format="float" />
+        <attr name="monthFontSize" format="float"/>
+        <attr name="isSeparatedView" format="boolean"/>
+        <attr name="shownLines" format="boolean"/>
+         
+
+    </declare-styleable>
+</resources>
